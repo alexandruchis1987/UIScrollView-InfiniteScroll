@@ -457,7 +457,7 @@ static const void *kPBInfiniteScrollStateKey = &kPBInfiniteScrollStateKey;
         
         // This will delay handler execution until scroll deceleration
 //        [self performSelector:@selector(pb_callInfiniteScrollHandler) withObject:self afterDelay:0.1 inModes:@[ NSDefaultRunLoopMode ]];        
-        [self pb_callInfiniteScrollHandler]
+        [self pb_callInfiniteScrollHandler];
     }
 }
 
